@@ -61,3 +61,15 @@ function App() {
 }
 
 export default App;
+
+
+// git log -> log the history of commits 
+// git branch RER-40CreateLogin -> (RER=> name of project(defined by jira))
+//  (-40 => number of task from RER project) -> (CreateLogin -> (title of task on jira))
+// git checkout RER-40CreateLogin -> we have a new branch from master
+// git add - commit
+// git commit => i > INSERT => set a title and description(with an enter between title and desc) to our commit -> :wq
+// git commit --amend for edit latest commit
+//  git fetch
+// git pull --rebase
+// git rebase -i origin/master
